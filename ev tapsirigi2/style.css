@@ -1,0 +1,727 @@
+nav{
+    /* margin-left: 50px; */
+    position: fixed;
+    max-width: 350px;
+    min-width: 300px;
+    min-height: 1000px;
+    /* background-color: aqua; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    
+}
+body{
+    width: 100%;
+    /* display: flex; */
+}
+header{
+    max-width: 15%;
+}
+main{
+     width: 85%;
+    position: absolute;
+    right: 0px;
+}
+nav .container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    gap: 7px;
+}
+nav .container .photo{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+nav .container .photo img{
+    border-radius: 5px;
+}
+nav .container span{
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+
+}
+nav .container .windows{
+    width: 120px;
+    height: 40px;
+    color: rgb(69, 196, 153);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+nav .container .windows span{
+    color: rgb(69, 196, 153); 
+}
+nav .container .about{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+nav .container .about span{
+    color: black;
+}
+.fa-user-large{
+    position: absolute;
+    left: 5px;
+    
+
+}
+nav .container .contact{
+    position: relative;
+    width: 120px;
+    height: 40px;   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+nav .container .contact span{
+    color: black;
+}
+.fa-envelope{
+    position: absolute;
+    left: 5px;
+
+
+}
+nav .container .contact span{
+    position: absolute;
+    right: 20px;
+}
+.sosialm{
+    font-size: 16px;
+    position: absolute;
+    left: 23px;
+    top: 400px;
+    font-weight: bold;
+}
+#first{
+    height: 20vh;
+    background-color: rgb(233, 232, 232);
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+}
+#first h1{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    font-size: 45px;
+    margin-left: 20px;
+}
+#first .filter{
+    margin-left: 20px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.grandline{
+    margin-left: 20px;
+    width: 98%;
+    height: 5px;
+    background-color: rgb(211, 211, 211);
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 50px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    transition: 300ms;
+
+}
+.all:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.filter .design{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 90px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+    
+    
+}
+.filter .design:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.filter .photos{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 90px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+
+}
+.filter .photos:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+.filter .art{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 60px;
+    height: 30px;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: 300ms;
+}
+.filter .art:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#second{
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#second .cards{
+   
+    width: 80vw;
+    height: 100vh;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#second .cards {
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+#second .cards .card{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+#second .buttons{
+    width: 240px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    transition: 400ms;
+}
+#second .buttons div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+}
+.sol{
+    font-size: 10px;
+    transition: 100ms;
+
+}
+.sol:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.sag{
+    font-size: 10px;
+    transition: 100ms;
+}
+.sag:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .bir{
+    background-color: black;
+    color: white;
+    transition: 100ms;
+}
+.buttons .bir:hover{
+    background-color: rgb(128, 128, 128);
+    color: rgb(66, 65, 65);
+    cursor: pointer;
+
+}
+.buttons .iki{
+    transition: 100ms;
+}
+.buttons .iki:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.buttons .uc{
+    transition: 100ms;
+}
+.buttons .uc:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .dord{
+    transition: 100ms;
+}
+.buttons .dord:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons .bes{
+    transition: 100ms;
+}
+.buttons .bes:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/* ----------------------------------------------------------------- */
+#third{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 30vh;
+}
+#third .container{
+    min-height: 320px;
+    max-width: 1260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#third .images{
+    min-height: 320px;
+    max-width: 1220.59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+#third .images .image{
+    width: 605.98px;
+    height: 351.48px;
+    background-color: red;
+}
+#third .images .image img{
+    width: 100%;
+    height: 100%;
+
+}
+#third .text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+
+}
+/* ----------------------------------------------------------------- */
+#fourth{
+    margin-top: 50px;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#fourth .container{
+    display: flex;
+    min-height: 30vh;
+    max-width: 1220.59px;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+#fourth .container h2{
+    font-weight: 500;
+}
+#fourth .container span{
+    font-size: 18px;
+}
+
+
+.photography{
+    width: 1220.59px;
+    height: 38.5px;
+    background-color: grey;
+}
+.webdesign{
+    width: 1220.59px;
+    height: 38.5px;
+    background-color: grey;
+}
+.photoshop{
+    width: 1220.59px;
+    height: 38.5px;
+    background-color: grey;
+}
+.photography2{
+    width: 1120.59px;
+    height: 38.5px;
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.webdesign2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000.59px;
+    height: 38.5px;
+    background-color: rgb(76, 75, 75);
+    color: white;
+
+}
+.photoshop2{
+    width: 920.59px;
+    height: 38.5px;
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#fourth .download{
+    width: 200.7px;
+    height: 46.5px;
+    background-color: rgb(76, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    margin-top: 20px;
+    
+}
+#fourth .download span{
+    font-size: 15px;
+    font-weight: bold;
+}
+#fourth .download .fa-download{
+    font-size: 17px;
+}
+/* ------------------------------------------------------------------ */
+#fifth{
+    display: flex;
+    min-height: 30vh;
+    max-width: 1220.59px;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 170px;
+    
+
+   
+
+}
+#fifth .ff{
+    margin-bottom: 50px;
+}
+#fifth .h2{
+    margin-top: 50px;
+    width: 100%;
+
+}
+#fifth .container{
+    
+    display: flex;
+    min-height: 40vh;
+    width: 1220.59px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+#fifth .container .card{
+    height: 540px ;
+    width: 320.66px;
+
+}
+#fifth .container .card .bir{
+    width: 320.66px;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+
+}
+#fifth .container .card .iki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320.66px;
+    height: 55.5px;
+    color: rgb(125, 125, 125);
+    background-color: white;
+}
+
+#fifth .container .card .uc {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320.66px;
+    height: 120.5px;
+    color: rgb(125, 125, 125);
+    background-color: white;
+    flex-direction: column;
+
+}
+#fifth .container .card .uc span{
+    color: grey;
+    font-size: 12px ;
+}
+#fifth .container .card .bes{
+    height: 94.5px;
+    width: 320.66px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#fifth .container .card .bes .button{
+    width: 102.5px;
+    height: 46.75px;
+    background-color: rgb(138, 250, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+#fifth .container .card .bir.pro{
+    background-color: rgb(138, 250, 212);
+}
+/* -------------------------------------------------------------------------- */
+#sixth{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+#sixth .container{
+    width: 1220.59px;
+    height: 560px;
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sixth .container .contact{
+    height: 40vh;
+    width: 1220.59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#sixth .container .contact .box{
+    width: 1032px;
+    height: 153px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#sixth .container .contact .box .mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 338.65px;
+    height: 105px;
+    color: white;
+    gap: 15px;
+
+}
+#sixth .container .contact .box .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 338.65px;
+    height: 105px;
+    color: rgb(251, 251, 251);
+    gap: 15px;
+}
+#sixth .container .contact .box .phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    width: 338.65px;
+    height: 105px;
+    color: white;
+    gap: 15px;
+}
+.fa-inbox{
+    font-size: 30px;
+}
+.fa-location-dot{
+    font-size: 30px;
+}
+.fa-phone{
+    font-size: 30px;
+}
+.redline{
+    height: 1px;
+    width: 1020.59px;
+    background-color: rgb(245, 245, 245);
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 40px;
+}
+input{
+    width: 1000px;
+    height: 40.5px;
+    border: 0px;
+}
+input::placeholder{
+    padding-left: 10px;
+    font-size: 16px;
+}
+form .button{
+    width: 165.39px;
+    height: 38.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 10px;
+}
+/* ------------------------------------------------------- */
+.con{
+    display: flex;
+    min-height: 30vh;
+    max-width: 1220px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(173, 173, 173);
+    gap: 15px;
+    margin-left:176.5px;
+    color: rgb(0, 0, 0);
+    
+
+}
+.con .bir{
+
+    width: 333.33px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px   ;
+
+}
+.con .iki{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.con img{
+width: 50px;
+height: 50px;
+}
+.con .iki span{
+    padding-left: 10px;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boc2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.con .uc{
+    width: 393.33px;
+    height: 198.5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px    ;
+}
+.con .uc div{
+    width: 66.53px;
+    height: 18px;
+    background-color: gray;
+}
+.con .uc  .ny {
+    width: 90px ;
+    height: 18px;
+    
+}
+/* ------------------------------------ */
+.conn{
+    height: 30vh;
+    max-width: 1220.58px;
+    background-color: black;
+    margin-left:176.5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fon
+
+}
